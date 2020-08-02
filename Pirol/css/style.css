@@ -111,6 +111,79 @@
   text-align: center;
 }
 
+.skills {
+  overflow-x: hidden;
+}
+
+.skills__col {
+  padding: 0;
+}
+
+.skills__lvl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.skills__img {
+  width: 100%;
+  height: 100%;
+  background: url(../img/skills/bg_skills.jpg) 0 20%/100% auto no-repeat;
+}
+
+.skill-lvl {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #f0ffff;
+}
+
+.skill-lvl__content {
+  padding: 164px 0;
+}
+
+.skill-lvl__title {
+  font-weight: bold;
+}
+
+.skill-lvl__name {
+  margin-top: 25px;
+}
+
+.skill-lvl__name span {
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 7px;
+}
+
+.skill-lvl__charge {
+  margin-top: 15px;
+  height: 3px;
+  min-width: 500px;
+  background: #d8d8d8;
+}
+
+.skill-lvl__charge [id="1"] {
+  font-weight: bold;
+  background: #10c9c3;
+  height: 3px;
+  max-width: 336px;
+}
+
+.skill-lvl__charge [id="2"] {
+  font-weight: bold;
+  background: #10c9c3;
+  height: 3px;
+  max-width: 428px;
+}
+
+.skill-lvl__charge [id="3"] {
+  font-weight: bold;
+  background: #10c9c3;
+  height: 3px;
+  max-width: 280px;
+}
+
 @font-face {
   font-family: "Montserrat";
   font-display: swap;

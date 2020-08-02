@@ -1,0 +1,80 @@
+.skills {
+    overflow-x: hidden;
+    // .skills__row
+    &__row {
+    }
+
+    // .skills__col
+
+    &__col {
+        // max-width: 683px;
+        padding: 0;
+    }
+
+    // .skills__lvl
+
+    &__lvl {
+        display: flex;
+    }
+
+    // .skills__img
+
+    &__img {
+        width: 100%;
+        height: 100%;
+        background: url(../img/skills/bg_skills.jpg) 0 20% / 100% auto no-repeat;
+    }
+}
+.skill-lvl {
+    justify-content: center;
+    background: #f0ffff;
+    // .skill-lvl__content
+
+    &__content {
+        padding: 164px 0;
+    }
+
+    // .skill-lvl__title
+
+    &__title {
+        font-weight: bold;
+    }
+
+    // .skill-lvl__name
+
+    &__name {
+        margin-top: 25px;
+        & span {
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 7px;
+        }
+    }
+
+    // .skill-lvl__charge
+
+    &__charge {
+        margin-top: 15px;
+        height: 3px;
+        min-width: 500px;
+        background: #d8d8d8;
+        & [id="1"] {
+            font-weight: bold;
+            background: #10c9c3;
+            height: 3px;
+            max-width: 336px;
+        }
+        & [id="2"] {
+            font-weight: bold;
+            background: #10c9c3;
+            height: 3px;
+            max-width: 428px;
+        }
+        & [id="3"] {
+            font-weight: bold;
+            background: #10c9c3;
+            height: 3px;
+            max-width: 280px;
+        }
+    }
+}

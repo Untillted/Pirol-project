@@ -1,0 +1,51 @@
+.about-us {
+    // .about-us__content
+
+    &__content {
+    }
+
+    // .about-us__row
+
+    &__row {
+        justify-content: center;
+    }
+
+    // .about-us__col
+
+    &__col {
+    }
+
+    // .about-us__title
+
+    &__title {
+    }
+
+    // .about-us__text
+
+    &__text {
+    }
+
+    // .about-us__img
+
+    &__img {
+    }
+}
+.container {
+}
+.row {
+}
+.col-xl-8 {
+}
+.title {
+    font-weight: 700;
+}
+.text {
+    font-family: "nunito";
+    font-size: 16px;
+    color: #787878;
+    margin: 37px 0;
+}
+.main-title {
+    padding: 100px 0;
+    text-align: center;
+}

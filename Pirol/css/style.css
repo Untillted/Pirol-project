@@ -89,6 +89,28 @@
   font-weight: bold;
 }
 
+.about-us__row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.text {
+  font-family: "nunito";
+  font-size: 16px;
+  color: #787878;
+  margin: 37px 0;
+}
+
+.main-title {
+  padding: 100px 0;
+  text-align: center;
+}
+
 @font-face {
   font-family: "Montserrat";
   font-display: swap;

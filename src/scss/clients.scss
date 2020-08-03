@@ -1,11 +1,5 @@
 .clients {
     padding: 65px 0;
-    // .clients__content
-
-    &__content {
-    }
-
-    // .clients__row
 
     &__row {
         justify-content: space-between;
@@ -15,10 +9,5 @@
 
     &__col {
         text-align: center;
-    }
-
-    // .clients__logo
-
-    &__logo {
     }
 }

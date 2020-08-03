@@ -67,15 +67,25 @@
   margin-bottom: 39px;
 }
 
+.bottom-header a {
+  font-size: 12px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
 .button {
   border: 2px solid #10c9c3;
   padding: 13px 36px;
   font-size: 12px;
   color: #fff;
   background: #10c9c3;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .button:focus {
@@ -265,13 +275,14 @@
 }
 
 .work-item .active_icon img {
-  width: 20%;
+  width: 60%;
 }
 
 .work-item:hover .active_icon {
   display: block;
   position: absolute;
   top: 50%;
+  left: 30%;
   text-align: center;
 }
 
@@ -286,7 +297,7 @@
 .more-works__show {
   text-align: center;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 17px;
   color: #8e8e8e;
 }
 
@@ -468,6 +479,41 @@
   text-transform: uppercase;
 }
 
+.footer {
+  background: #141414;
+  color: #bcbcbc;
+  font-size: 15px;
+}
+
+.footer__content {
+  text-align: left;
+}
+
+.footer__content li {
+  list-style: none;
+}
+
+.footer__content a {
+  text-decoration: none;
+}
+
+.copyright__title {
+  font-size: 18px;
+  color: #fff;
+}
+
+.nav-footer__list:last-child {
+  margin-left: 50px;
+}
+
+.nav-footer__link {
+  color: #bcbcbc;
+}
+
+.soccial__link {
+  color: #bcbcbc;
+}
+
 @font-face {
   font-family: "Montserrat";
   font-display: swap;
@@ -495,9 +541,13 @@
   outline: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: #000;
-  font-size: 14px;
+  font-size: 15px;
   font-family: "Montserrat";
   overflow-x: hidden;
 }

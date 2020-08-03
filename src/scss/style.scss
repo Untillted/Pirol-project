@@ -9,6 +9,7 @@
 @import "testimonials.scss";
 @import "clients.scss";
 @import "forms.scss";
+@import "footer.scss";
 
 // \\
 
@@ -36,7 +37,11 @@ $md4: 479.98;
 //  VARIABLES//
 
 // RESET STYLE
+
 // @import "null";
+
+// RESET STYLE//
+// MAIN STYLE
 * {
     padding: 0;
     margin: 0;
@@ -47,17 +52,19 @@ $md4: 479.98;
 *:focus {
     outline: none;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     color: #000;
-    font-size: 14px;
+    font-size: 15px;
     &._lock {
         overflow: hidden;
     }
     font-family: $fontFamily;
     overflow-x: hidden;
 }
-// RESET STYLE//
+// MAIN STYLE\\
 
 // WRAPPER
 .wrapper {

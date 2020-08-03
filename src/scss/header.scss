@@ -7,39 +7,15 @@
     &__content {
         padding: 45px 0 201px 0;
     }
-
-    // .header__row
-
-    &__row {
-    }
 }
 .top-header {
     display: flex;
     align-items: center;
-    // .top-header__logo
-
-    &__logo {
-    }
-
-    // .top-header__menu
-
-    &__menu {
-    }
 }
 .logo {
     width: 6%;
 }
 .menu {
-    // .menu__icon
-
-    &__icon {
-    }
-
-    // .menu__body
-
-    &__body {
-    }
-
     // .menu__list
 
     &__list {
@@ -91,9 +67,12 @@
         margin-bottom: 39px;
     }
 
-    // .bottom-header__button
-
-    &__button {
+    & a {
+        font-size: 12px;
+        cursor: pointer;
+        text-decoration: none;
+        color: #fff;
+        transition: 0.3s;
     }
 }
 
@@ -105,7 +84,7 @@
     font-size: 12px;
     color: #fff;
     background: #10c9c3;
-    transition: 0.5s;
+    transition: 0.3s;
     &:focus {
         outline: none;
     }

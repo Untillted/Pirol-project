@@ -1,8 +1,11 @@
 @import "header.scss";
 @import "about.scss";
 @import "skills.scss";
-
-// MIXINS =============
+@import "statistics.scss";
+@import "works.scss";
+@import "work-process.scss";
+@import "services.scss";
+@import "testimonials.scss"; // MIXINS =============
 @import "mixin";
 // MIXINS =============
 
@@ -17,7 +20,7 @@ $fontFamily: "Montserrat";
 
 //  VARIABLES
 $minWidth: 320px;
-$maxWidth: 1920;
+$maxWidth: 1366;
 $maxWidthContainer: 1170;
 $md1: $maxWidthContainer + 12;
 $md2: 991.98;
@@ -35,6 +38,7 @@ $md4: 479.98;
 *:focus {
     outline: none;
 }
+
 body {
     color: #000;
     font-size: 14px;
@@ -42,6 +46,7 @@ body {
         overflow: hidden;
     }
     font-family: $fontFamily;
+    overflow-x: hidden;
 }
 // RESET STYLE//
 

@@ -2,6 +2,7 @@
     overflow-x: hidden;
     // .skills__row
     &__row {
+        justify-content: center;
     }
 
     // .skills__col
@@ -31,6 +32,8 @@
     // .skill-lvl__content
 
     &__content {
+        margin-left: 98px;
+
         padding: 164px 0;
     }
 

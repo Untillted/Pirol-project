@@ -1,0 +1,71 @@
+// HEADER
+.about-header {
+    background: #fff;
+}
+// INFO-TEAM
+.info-team {
+    padding: 119px 0;
+    background: #3e3e3e;
+    color: #fff;
+
+    // .info-team__row
+
+    &__row {
+        text-align: center;
+        justify-content: center;
+    }
+
+    // .info-team__col
+
+    &__col {
+    }
+
+    // .info-team__title
+
+    &__title {
+    }
+
+    // .info-team__text
+
+    &__text {
+        color: #fff;
+    }
+}
+
+// ABOUT-ME ==================================
+.about-me-body {
+    // .about-me-body__content
+
+    &__content {
+    }
+
+    // .about-me-body__photo
+
+    &__photo {
+        & img {
+            width: 100%;
+        }
+    }
+
+    // .about-me-body__info
+
+    &__info {
+    }
+}
+.my-info {
+    padding: 140px 86px;
+    // .my-info__title
+
+    &__title {
+    }
+
+    // .my-info__text
+
+    &__text {
+    }
+
+    // .my-info__img
+
+    &__img {
+    }
+}

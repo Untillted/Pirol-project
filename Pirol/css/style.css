@@ -275,13 +275,13 @@
 }
 
 .work-item .active_icon img {
-  width: 60%;
+  width: 40%;
 }
 
 .work-item:hover .active_icon {
   display: block;
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 30%;
   text-align: center;
 }
@@ -512,6 +512,35 @@
 
 .soccial__link {
   color: #bcbcbc;
+}
+
+.about-header {
+  background: #fff;
+}
+
+.info-team {
+  padding: 119px 0;
+  background: #3e3e3e;
+  color: #fff;
+}
+
+.info-team__row {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.info-team__text {
+  color: #fff;
+}
+
+.about-me-body__photo img {
+  width: 100%;
+}
+
+.my-info {
+  padding: 140px 86px;
 }
 
 @font-face {

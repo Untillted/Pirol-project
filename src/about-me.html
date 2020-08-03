@@ -3,9 +3,93 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
     <title>Document</title>
   </head>
   <body>
-    hello
+    <div class="wrapper">
+      <!--    HEADER     -->
+      @@include("_about-header.html",{})
+      <!--    END HEADER     -->
+      <main class="page">
+        <!--    INFO TEAM    -->
+        <div class="info-team">
+          <div class="info-team__content container">
+            <div class="info-team__row row">
+              <div class="info-team__col col-xl-6">
+                <h3 class="info-team__title title">
+                  Amelia Woods
+                </h3>
+                <p class="info-team__text text">
+                  I am a Graphic & Web Designer based in New York, specializing
+                  in User Interface Design and Development.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--   END INFO TEAM    -->
+        <!--    STATISTICS     -->
+        @@include("_statistics.html",{})
+        <!--   END STATISTICS     -->
+        <!--    ABOUT-ME BODY    -->
+        <a name="about"></a>
+        <div class="about-me-body">
+          <div class="about-me-body__content row">      
+            <div class="about-me-body__info my-info col-xl-6 container"> 
+              <h3 class="my-info__title title">
+                About me
+               </h3>
+               <p class="my-info__text text">
+                Given let waters air sea had you'll, may seed abundantly fish.
+                Were, you'll earth forth winged above brought. Own darkness
+                they're him can't fourth sea place have.
+                <p class="my-info__text text">So the above May
+                  stars cattle fruitful face shall. Tree it, winged. Every signs
+                   male firmament us. Morning him.</p> 
+                </p >
+              <div class="my-info__img">
+                <img src="img/about/signature.png" alt="" />
+              </div>
+            </div>
+            <div class="about-me-body__photo col-xl-6">
+              <img src="img/photo/1.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <!--    END ABOUT-ME BODY    -->
+        <!--    NEED PROJECT     -->
+        <a name="contact"></a>
+          <div class="forms main-title">
+            <div class="forms__content container">
+              <div class="forms__top top-forms row justify-content-center">
+                <div class="top-forms__col col-xl-6 text-center">
+                  <h3 class="forms__title title">
+                    Need a Project?
+                  </h3>
+                  <p class="forms__text text">
+                    Let us know what you're looking for in an agency. We'll take a look
+                    and see if this could be the start of something beautiful.
+                  </p>
+                </div>
+              </div>
+              <div class="forms__bottom bottom-forms row">
+                <div class="bottom-forms__col col-xl-3">
+                  <button class="bottom-forms__button button">lets talk</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!--    END NEED PROJECT     -->
+      </main>
+      <!--    FOOTER     -->
+      @@include("_footer.html",{})
+      <!--    END FOOTER     -->
+    </div>
   </body>
 </html>

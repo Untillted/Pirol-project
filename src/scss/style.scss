@@ -1,3 +1,4 @@
+// MAIN CONTENT
 @import "header.scss";
 @import "about.scss";
 @import "skills.scss";
@@ -5,7 +6,13 @@
 @import "works.scss";
 @import "work-process.scss";
 @import "services.scss";
-@import "testimonials.scss"; // MIXINS =============
+@import "testimonials.scss";
+@import "clients.scss";
+@import "forms.scss";
+
+// \\
+
+// MIXINS =============
 @import "mixin";
 // MIXINS =============
 
@@ -34,7 +41,9 @@ $md4: 479.98;
     padding: 0;
     margin: 0;
     border: 0;
+    cursor: default;
 }
+
 *:focus {
     outline: none;
 }

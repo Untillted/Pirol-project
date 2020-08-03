@@ -67,7 +67,7 @@
   margin-bottom: 39px;
 }
 
-.bottom-header .button {
+.button {
   border: 2px solid #10c9c3;
   padding: 13px 36px;
   font-size: 12px;
@@ -78,11 +78,11 @@
   transition: 0.5s;
 }
 
-.bottom-header .button:focus {
+.button:focus {
   outline: none;
 }
 
-.bottom-header .button:hover {
+.button:hover {
   color: #191919;
   background: transparent;
   border: 2px solid #10c9c3;
@@ -384,6 +384,7 @@
 }
 
 .dots__col {
+  max-height: 18px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -410,6 +411,63 @@
   background: #fff;
 }
 
+.clients {
+  padding: 65px 0;
+}
+
+.clients__row {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.clients__col {
+  text-align: center;
+}
+
+.forms {
+  background: #f5f5f5;
+}
+
+.body-forms {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.body-forms__col {
+  margin-top: 30px;
+}
+
+.body-forms__col input,
+.body-forms__col textarea {
+  cursor: text;
+  font-family: "Nunito";
+  font-weight: bold;
+  font-size: 15px;
+  color: #787878;
+  padding: 15px 20px;
+  width: 100%;
+}
+
+.body-forms__comment {
+  resize: none;
+}
+
+.bottom-forms {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bottom-forms__col {
+  margin-top: 30px;
+}
+
+.bottom-forms__button {
+  text-transform: uppercase;
+}
+
 @font-face {
   font-family: "Montserrat";
   font-display: swap;
@@ -430,6 +488,7 @@
   padding: 0;
   margin: 0;
   border: 0;
+  cursor: default;
 }
 
 *:focus {

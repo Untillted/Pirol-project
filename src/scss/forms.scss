@@ -1,0 +1,85 @@
+.forms {
+    background: #f5f5f5;
+    // .forms__content
+
+    &__content {
+    }
+
+    // .forms__top
+
+    &__top {
+    }
+
+    // .forms__title
+
+    &__title {
+    }
+
+    // .forms__text
+
+    &__text {
+    }
+
+    // .forms__body
+
+    &__body {
+    }
+
+    // .forms__bottom
+
+    &__bottom {
+    }
+}
+.body-forms {
+    justify-content: center;
+    // .body-forms__col
+
+    &__col {
+        margin-top: 30px;
+        & input,
+        textarea {
+            cursor: text;
+            font-family: "Nunito";
+            font-weight: bold;
+            font-size: 15px;
+            color: #787878;
+            padding: 15px 20px;
+            width: 100%;
+        }
+    }
+
+    // .body-forms__name
+
+    &__name {
+    }
+
+    // .body-forms__email
+
+    &__email {
+    }
+
+    // .body-forms__title
+
+    &__title {
+    }
+
+    // .body-forms__comment
+
+    &__comment {
+        resize: none;
+    }
+}
+.bottom-forms {
+    justify-content: center;
+    // .bottom-forms__col
+
+    &__col {
+        margin-top: 30px;
+    }
+
+    // .bottom-forms__button
+
+    &__button {
+        text-transform: uppercase;
+    }
+}

@@ -9,6 +9,13 @@ $md3: 767.98px;
   background: #fff;
   @media (max-width: $md1) {
     padding: 10px 0;
+    text-align: center;
+  }
+}
+.about-link {
+}
+.about-logo {
+  & img {
   }
 }
 // INFO-TEAM
@@ -49,13 +56,16 @@ $md3: 767.98px;
   // .about-me-body__content
 
   &__content {
+    @media (max-width: $md1) {
+      text-align: center;
+    }
   }
 
   // .about-me-body__photo
 
   &__photo {
     & img {
-      width: 100%;
+      max-width: 100%;
     }
   }
 
@@ -66,9 +76,15 @@ $md3: 767.98px;
 }
 .my-info {
   padding: 140px 86px;
+  @media (max-width: $md1) {
+    padding: 40px 20px;
+  }
   // .my-info__title
 
   &__title {
+    @media (max-width: $md1) {
+      margin-top: 20px;
+    }
   }
 
   // .my-info__text
@@ -79,5 +95,8 @@ $md3: 767.98px;
   // .my-info__img
 
   &__img {
+    @media (max-width: $md1) {
+      margin-bottom: 10px;
+    }
   }
 }

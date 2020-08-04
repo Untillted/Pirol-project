@@ -547,7 +547,7 @@
 }
 
 .about-me-body__photo img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .my-info {
@@ -591,7 +591,7 @@
 }
 
 .contact-map {
-  padding-bottom: 100px;
+  margin: 20px 0;
 }
 
 @font-face {
@@ -715,6 +715,23 @@ body._lock {
 
   .about-header {
     padding: 10px 0;
+    text-align: center;
+  }
+
+  .about-me-body__content {
+    text-align: center;
+  }
+
+  .my-info {
+    padding: 40px 20px;
+  }
+
+  .my-info__title {
+    margin-top: 20px;
+  }
+
+  .my-info__img {
+    margin-bottom: 10px;
   }
 }
 
@@ -767,6 +784,20 @@ body._lock {
   }
 }
 
+@media (max-width: 1198.98px) {
+  .contact-header {
+    padding: 15px 0;
+  }
+
+  .contact {
+    padding: 10px;
+  }
+
+  .contact__info {
+    padding: 0;
+  }
+}
+
 @media (max-width: 1182) {
   .container {
     max-width: 970px;
@@ -809,6 +840,7 @@ body._lock {
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
+    text-align: left;
     position: absolute;
     top: 0;
     right: -10%;
@@ -909,6 +941,12 @@ body._lock {
 @media (max-width: 764.98px) {
   .services {
     display: none;
+  }
+}
+
+@media (max-width: 760px) {
+  .contact {
+    text-align: center;
   }
 }
 

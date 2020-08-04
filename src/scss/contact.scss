@@ -1,117 +1,109 @@
 // HEADER
 .contact-header {
-    padding: 38px 0;
+  padding: 38px 0;
+  @media (max-width: 1198.98px) {
+    padding: 15px 0;
+  }
 }
 // END HEADER
 
 // CONTACT
 
 .contact {
-    background: #f5f5f5;
-    padding: 100px;
+  background: #f5f5f5;
+  padding: 100px;
+  @media (max-width: 1198.98px) {
+    padding: 10px;
+  }
+  @media (max-width: 760px) {
+    text-align: center;
+  }
 
-    // .contact__content
+  // .contact__content
 
-    &__content {
+  &__content {
+  }
+
+  // .contact__row
+
+  &__row {
+  }
+
+  // .contact__col
+
+  &__col {
+  }
+
+  // .contact__info
+
+  &__info {
+    padding-right: 115px;
+    @media (max-width: 1198.98px) {
+      padding: 0;
     }
+  }
 
-    // .contact__row
+  // .contact__form
 
-    &__row {
-    }
-
-    // .contact__col
-
-    &__col {
-    }
-
-    // .contact__info
-
-    &__info {
-        padding-right: 115px;
-    }
-
-    // .contact__form
-
-    &__form {
-    }
+  &__form {
+  }
 }
 .info-contact {
-    // .info-contact__title
+  // .info-contact__title
 
-    &__title {
-        margin-bottom: 43px;
-    }
+  &__title {
+    margin-bottom: 43px;
+  }
 
-    // .info-contact__text
-    & span {
-        margin-left: 6px;
-    }
-    & span,
-    &__text {
-        color: #787878;
-    }
-    &__text {
-        margin-bottom: 36px;
-    }
-    & p {
-        font-family: "Nunito";
-        margin-top: 16px;
-        font-weight: bold;
-    }
-
-    // .info-contact__address
-
-    &__address {
-    }
-
-    // .info-contact__phone
-
-    &__phone {
-    }
-
-    // .info-contact__email
-
-    &__email {
-    }
-
-    // .info-contact__fax
-
-    &__fax {
-    }
+  // .info-contact__text
+  & span {
+    margin-left: 6px;
+  }
+  & span,
+  &__text {
+    color: #787878;
+  }
+  &__text {
+    margin-bottom: 36px;
+  }
+  & p {
+    font-family: "Nunito";
+    margin-top: 16px;
+    font-weight: bold;
+  }
 }
 .form-contact {
-    // .form-contact__row
+  // .form-contact__row
 
-    &__row {
-    }
+  &__row {
+  }
 }
 .body-forms {
-    // .body-forms__col
+  // .body-forms__col
 
-    &__col {
-    }
+  &__col {
+  }
 
-    // .body-forms__name
+  // .body-forms__name
 
-    &__name {
-    }
+  &__name {
+  }
 
-    // .body-forms__email
+  // .body-forms__email
 
-    &__email {
-    }
+  &__email {
+  }
 
-    // .body-forms__title
+  // .body-forms__title
 
-    &__title {
-    }
+  &__title {
+  }
 
-    // .body-forms__comment
+  // .body-forms__comment
 
-    &__comment {
-    }
+  &__comment {
+  }
 }
 .contact-map {
-    padding-bottom: 100px;
+  margin: 20px 0;
 }

@@ -18,6 +18,10 @@
   // .footer__row
 
   &__row {
+    display: flex;
+    @media (max-width: 588px) {
+      text-align: center;
+    }
   }
 
   // .footer__copyright
@@ -41,7 +45,7 @@
   }
 }
 .copyright {
-  @media (max-width: 1199px) {
+  @media (max-width: 989px) {
     display: none;
   }
   // .copyright__content
@@ -55,7 +59,7 @@
   }
 }
 .footer-contact {
-  @media (max-width: 1199px) {
+  @media (max-width: 588px) {
     display: none;
   }
   // .footer-contact__content
@@ -65,9 +69,6 @@
 }
 .nav-footer {
   // .nav-footer__content
-  @media (max-width: 1199px) {
-    display: none;
-  }
   &__content {
   }
 

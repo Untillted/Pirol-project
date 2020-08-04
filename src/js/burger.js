@@ -7,4 +7,3 @@ document.addEventListener("DOMContentLoaded", () => {
     menu.classList.toggle("menu__body_active");
   });
 });
-;

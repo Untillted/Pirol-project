@@ -1,96 +1,105 @@
 .footer {
-    background: #141414;
-    color: #bcbcbc;
-    font-size: 15px;
+  background: #141414;
+  color: #bcbcbc;
+  font-size: 15px;
 
-    // .footer__content
+  // .footer__content
 
-    &__content {
-        text-align: left;
-        & li {
-            list-style: none;
-        }
-        & a {
-            text-decoration: none;
-        }
+  &__content {
+    text-align: left;
+    & li {
+      list-style: none;
     }
-
-    // .footer__row
-
-    &__row {
+    & a {
+      text-decoration: none;
     }
+  }
 
-    // .footer__copyright
+  // .footer__row
 
-    &__copyright {
-    }
+  &__row {
+  }
 
-    // .footer__contact
+  // .footer__copyright
 
-    &__contact {
-    }
+  &__copyright {
+  }
 
-    // .footer__nav
+  // .footer__contact
 
-    &__nav {
-    }
+  &__contact {
+  }
 
-    // .footer__social
+  // .footer__nav
 
-    &__social {
-    }
+  &__nav {
+  }
+
+  // .footer__social
+
+  &__social {
+  }
 }
 .copyright {
-    // .copyright__content
+  @media (max-width: 1199px) {
+    display: none;
+  }
+  // .copyright__content
 
-    &__content {
-    }
-    &__title {
-        font-size: 18px;
-        color: #fff;
-    }
+  &__content {
+  }
+  &__title {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 26px;
+  }
 }
 .footer-contact {
-    // .footer-contact__content
+  @media (max-width: 1199px) {
+    display: none;
+  }
+  // .footer-contact__content
 
-    &__content {
-    }
+  &__content {
+  }
 }
 .nav-footer {
-    // .nav-footer__content
+  // .nav-footer__content
+  @media (max-width: 1199px) {
+    display: none;
+  }
+  &__content {
+  }
 
-    &__content {
+  // .nav-footer__list
+
+  &__list {
+    &:last-child {
+      margin-left: 50px;
     }
+  }
 
-    // .nav-footer__list
+  // .nav-footer__link
 
-    &__list {
-        &:last-child {
-            margin-left: 50px;
-        }
-    }
-
-    // .nav-footer__link
-
-    &__link {
-        color: #bcbcbc;
-    }
+  &__link {
+    color: #bcbcbc;
+  }
 }
 .social {
-    // .social__content
+  // .social__content
 
-    &__content {
-    }
+  &__content {
+  }
 
-    // .social__list
+  // .social__list
 
-    &__list {
-    }
+  &__list {
+  }
 }
 .soccial {
-    // .soccial__link
+  // .soccial__link
 
-    &__link {
-        color: #bcbcbc;
-    }
+  &__link {
+    color: #bcbcbc;
+  }
 }

@@ -1,83 +1,91 @@
 .skills {
-    overflow-x: hidden;
-    // .skills__row
-    &__row {
-        justify-content: center;
-    }
+  overflow-x: hidden;
+  // .skills__row
+  &__row {
+    justify-content: center;
+  }
 
-    // .skills__col
+  // .skills__col
 
-    &__col {
-        // max-width: 683px;
-        padding: 0;
-    }
+  &__col {
+    // max-width: 683px;
+    padding: 0;
+  }
 
-    // .skills__lvl
+  // .skills__lvl
 
-    &__lvl {
-        display: flex;
-    }
+  &__lvl {
+    display: flex;
+  }
 
-    // .skills__img
+  // .skills__img
 
-    &__img {
-        width: 100%;
-        height: 100%;
-        background: url(../img/skills/bg_skills.jpg) 0 20% / 100% auto no-repeat;
-    }
+  &__img {
+    width: 100%;
+    height: 100%;
+    background: url(../img/skills/bg_skills.jpg) 0 20% / 100% auto no-repeat;
+  }
 }
 .skill-lvl {
-    justify-content: center;
-    background: #f0ffff;
-    // .skill-lvl__content
+  justify-content: center;
+  background: #f0ffff;
+  // .skill-lvl__content
 
-    &__content {
-        margin-left: 98px;
-
-        padding: 164px 0;
+  &__content {
+    margin-left: 98px;
+    padding: 164px 0;
+    @media (max-width: 1199px) {
+      padding: 35px 0;
+      width: 70%;
+      margin: 0;
+      text-align: center;
     }
+  }
 
-    // .skill-lvl__title
+  // .skill-lvl__title
 
-    &__title {
-        font-weight: bold;
+  &__title {
+    font-weight: bold;
+  }
+
+  // .skill-lvl__name
+
+  &__name {
+    margin-top: 25px;
+    & span {
+      font-size: 12px;
+      font-weight: bold;
+      margin-right: 7px;
     }
+  }
 
-    // .skill-lvl__name
+  // .skill-lvl__charge
 
-    &__name {
-        margin-top: 25px;
-        & span {
-            font-size: 12px;
-            font-weight: bold;
-            margin-right: 7px;
-        }
+  &__charge {
+    margin-top: 15px;
+    height: 3px;
+    min-width: 500px;
+    background: #d8d8d8;
+    @media (max-width: 1199px) {
+      min-width: 100%;
     }
-
-    // .skill-lvl__charge
-
-    &__charge {
-        margin-top: 15px;
-        height: 3px;
-        min-width: 500px;
-        background: #d8d8d8;
-        & [id="1"] {
-            font-weight: bold;
-            background: #10c9c3;
-            height: 3px;
-            max-width: 336px;
-        }
-        & [id="2"] {
-            font-weight: bold;
-            background: #10c9c3;
-            height: 3px;
-            max-width: 428px;
-        }
-        & [id="3"] {
-            font-weight: bold;
-            background: #10c9c3;
-            height: 3px;
-            max-width: 280px;
-        }
+    & [id="1"] {
+      font-weight: bold;
+      background: #10c9c3;
+      height: 3px;
+      max-width: 75%;
     }
+    & [id="2"] {
+      font-weight: bold;
+      background: #10c9c3;
+      height: 3px;
+      width: 90%;
+    }
+    & [id="3"] {
+      font-weight: bold;
+      background: #10c9c3;
+      height: 3px;
+      max-width: 65%;
+    }
+  }
 }

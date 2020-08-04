@@ -1,11 +1,20 @@
+// MEDIA
+$md1: 1199.98px;
+$md2: 991.98px;
+$md3: 767.98px;
+
 // HEADER
 .about-header {
+    padding: 38px 0;
     background: #fff;
+    @media (max-width: $md1) {
+        padding: 10px 0;
+    }
 }
 // INFO-TEAM
 .info-team {
     padding: 119px 0;
-    background: #3e3e3e;
+    background: url(../img/images.jpg) 0 90% / cover no-repeat;
     color: #fff;
 
     // .info-team__row

@@ -11,6 +11,7 @@
 @import "forms.scss";
 @import "footer.scss";
 @import "about-me.scss";
+@import "contact.scss";
 // \\
 // MIXINS =============
 @import "mixin";
@@ -30,9 +31,9 @@ $minWidth: 320px;
 $maxWidth: 1366;
 $maxWidthContainer: 1170;
 $md1: $maxWidthContainer + 12;
-$md2: 991.98;
-$md3: 767.98;
-$md4: 479.98;
+$md2: 991.98px;
+$md3: 767.98px;
+$md4: 479.98px;
 //  VARIABLES//
 
 // RESET STYLE
@@ -42,53 +43,56 @@ $md4: 479.98;
 // RESET STYLE//
 // MAIN STYLE
 * {
-    padding: 0;
-    margin: 0;
-    border: 0;
-    cursor: default;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  cursor: default;
 }
-
+p {
+  margin: 0;
+}
 *:focus {
-    outline: none;
+  outline: none;
 }
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 body {
-    color: #000;
-    font-size: 15px;
-    &._lock {
-        overflow: hidden;
-    }
-    font-family: $fontFamily;
-    overflow-x: hidden;
+  color: #000;
+  font-size: 15px;
+  &._lock {
+    overflow: hidden;
+  }
+  font-family: $fontFamily;
+  overflow-x: hidden;
 }
 // MAIN STYLE\\
 
 // WRAPPER
 .wrapper {
-    width: 100%;
-    min-height: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    // &._loaded {
-    // }
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  // &._loaded {
+  // }
 }
 // WRAPPER \\
 
 // CONTAINER
 .container {
-    min-width: $maxWidthContainer;
-    margin: 0 auto;
-    @media (max-width: $md1+px) {
-        max-width: 970px;
-    }
-    @media (max-width: $md2+px) {
-        max-width: 750px;
-    }
-    @media (max-width: $md3+px) {
-        max-width: none;
-        padding: 0 10px;
-    }
+  min-width: $maxWidthContainer;
+  margin: 0 auto;
+  @media (max-width: $md1) {
+    max-width: 970px;
+  }
+  @media (max-width: $md2) {
+    max-width: 750px;
+  }
+  @media (max-width: $md3) {
+    max-width: none;
+    padding: 0 10px;
+  }
 }

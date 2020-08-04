@@ -1,3 +1,8 @@
+// MEDIA
+$md1: 1199.98px;
+$md2: 991.98px;
+$md3: 767.98px;
+
 .about-us {
     &__row {
         justify-content: center;
@@ -17,4 +22,7 @@
 .main-title {
     padding: 100px 0;
     text-align: center;
+    @media (max-width: $md1) {
+        padding: 20px 0;
+    }
 }

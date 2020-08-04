@@ -1,13 +1,24 @@
 .clients {
-    padding: 65px 0;
-
-    &__row {
-        justify-content: space-between;
+  padding: 65px 0;
+  @media (max-width: 1199.98px) {
+    padding: 0;
+  }
+  @media (max-width: 574.98px) {
+    display: none;
+  }
+  &__row {
+    justify-content: space-between;
+    @media (max-width: 1199.98px) {
+      justify-content: center;
     }
+  }
 
-    // .clients__col
+  // .clients__col
 
-    &__col {
-        text-align: center;
+  &__col {
+    text-align: center;
+    @media (max-width: 1199.98px) {
+      margin: 20px 0;
     }
+  }
 }

@@ -1,72 +1,87 @@
 .works {
-    // .works__content
+  // .works__content
 
-    &__content {
-    }
+  &__content {
+  }
 
-    // .works__items
+  // .works__items
 
-    &__items {
-        display: flex;
-        margin: 0;
-    }
+  &__items {
+    display: flex;
+    margin: 0;
+  }
 
-    // .works__item
+  // .works__item
 
-    &__item {
-        padding: 0;
-    }
+  &__item {
+    padding: 0;
+  }
 
-    // .works__more
+  // .works__more
 
-    &__more {
-    }
+  &__more {
+  }
 }
 .work-item {
-    max-width: 100%;
+  max-width: 100%;
+  @media (max-width: 1199px) {
+    width: 50%;
+    padding: 10px;
     &:hover img {
-        filter: brightness(50%);
-    }
-    // .work-item__img
-
-    &__img {
-        width: 100%;
-        transition: 0.3s;
-    }
-    & .active_icon {
-        display: none;
-        & img {
-            width: 40%;
-        }
+      filter: brightness(100%);
     }
     &:hover .active_icon {
-        display: block;
-        position: absolute;
-        top: 70%;
-        left: 30%;
-        text-align: center;
+      display: none;
     }
+  }
+  &:hover img {
+    filter: brightness(50%);
+  }
+  // .work-item__img
+
+  &__img {
+    width: 100%;
+    transition: 0.3s;
+  }
+  & .active_icon {
+    display: none;
+    & img {
+      width: 40%;
+    }
+  }
+  &:hover .active_icon {
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    text-align: center;
+  }
 }
 .more-works {
-    background: #f5f5f5;
-    padding: 46px 0;
-    justify-content: center;
-    // .more-works__show
-
-    &__show {
-        text-align: center;
-        font-weight: bold;
-        font-size: 17px;
-        color: #8e8e8e;
-        & p {
-            cursor: pointer;
-            margin: 0;
-            transition: 0.3s;
-        }
-        & p:hover {
-            color: #32cec9;
-        }
+  background: #f5f5f5;
+  padding: 46px 0;
+  justify-content: center;
+  // .more-works__show
+  @media (max-width: 1199px) {
+    & p:hover {
+      color: #8e8e8e;
     }
+  }
+
+  &__show {
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    color: #8e8e8e;
+    & p {
+      cursor: pointer;
+      margin: 0;
+      transition: 0.3s;
+    }
+    & p:hover {
+      color: #32cec9;
+    }
+  }
 }
 // .active_icon {
 //     display: none;

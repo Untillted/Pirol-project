@@ -11,6 +11,8 @@
 
   &__row {
     justify-content: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
   }
 
   // .slider__content

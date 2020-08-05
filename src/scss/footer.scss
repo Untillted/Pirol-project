@@ -83,7 +83,12 @@
   // .nav-footer__link
 
   &__link {
+    cursor: pointer;
+    transition: 0.3s;
     color: #bcbcbc;
+    &:hover {
+      color: #10c9c3;
+    }
   }
 }
 .social {
@@ -101,6 +106,11 @@
   // .soccial__link
 
   &__link {
+    cursor: pointer;
+    transition: 0.3s;
     color: #bcbcbc;
+    &:hover {
+      color: #10c9c3;
+    }
   }
 }

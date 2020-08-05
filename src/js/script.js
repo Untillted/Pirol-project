@@ -1,2 +1,4 @@
-@@include("burger.js",{});
-@@include("slider.js"{});
+document.addEventListener("DOMContentLoaded", () => {
+  @@include("burger.js", {});
+  @@include("slider.js", {});
+});

@@ -9,7 +9,7 @@ $md3: 767.98px;
   width: 40px;
   height: 40px;
   border: none;
-  font-size: 20px;
+  font-size: 30px;
   border-radius: 50%;
   background: #00897b;
   text-align: center;
@@ -21,6 +21,19 @@ $md3: 767.98px;
   color: #fff;
   transition: 0.3s;
   opacity: 0.5;
+  & svg {
+    cursor: pointer;
+    position: relative;
+    top: -10px;
+  }
+  &:hover {
+    opacity: 1;
+    color: #000;
+    @media (max-width: $md1) {
+      color: #fff;
+      opacity: 0.5;
+    }
+  }
 }
 .header {
   background: url(../img/header/header.jpg) 0 80% / cover;
@@ -147,6 +160,7 @@ $md3: 767.98px;
 // MAIN BUTTON
 
 .button {
+  cursor: pointer;
   border: 2px solid #10c9c3;
   padding: 13px 36px;
   font-size: 12px;
@@ -157,6 +171,7 @@ $md3: 767.98px;
     outline: none;
   }
   &:hover {
+    text-decoration: none;
     color: #191919;
     background: transparent;
     border: 2px solid #10c9c3;
@@ -172,7 +187,7 @@ $md3: 767.98px;
   }
 }
 
-// \\
+// BURGER \\
 .icon-menu {
   display: none;
   @media (max-width: $md3) {

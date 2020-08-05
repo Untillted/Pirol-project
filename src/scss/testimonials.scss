@@ -65,10 +65,13 @@
     background: #b0e8e6;
     border-radius: 50%;
     transition: 0.3s;
+    &_active {
+      background: #742828;
+    }
     &:hover {
       width: 14px;
       height: 14px;
-      background: #fff;
+      background: #742828;
     }
   }
 }

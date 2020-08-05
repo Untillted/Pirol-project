@@ -1,11 +1,3 @@
-// BURGER
-const burger = document.querySelector(".icon-menu"),
-  menu = document.querySelector(".menu__body");
-burger.addEventListener("click", () => {
-  burger.classList.toggle("icon-menu_active");
-  menu.classList.toggle("menu__body_active");
-});
-;
 const slider = document.querySelector(".slider__row"),
   slides = document.querySelectorAll(".slider__content"),
   dots = document.querySelectorAll(".dots__item"),
@@ -16,4 +8,3 @@ dots.forEach((dot, i) => {
     slider.style.transform = `translateX(${-size * i}px)`;
   });
 });
-;

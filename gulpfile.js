@@ -206,7 +206,7 @@ function clean(params) {
 
 let build = gulp.series(
   clean,
-  gulp.parallel(images, js, fonts, css, html),
+  gulp.parallel(js, fonts, css, html, images),
   fontsStyle
 );
 let watch = gulp.parallel(build, watchFiles, browserSync);

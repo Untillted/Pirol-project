@@ -1,25 +1,29 @@
 .testimonials {
   background: #10c9c3;
-  padding: 168px 0 60px 0;
+  padding: 68px 0 60px 0;
   color: #fff;
   @media (max-width: 1199.98px) {
     padding: 25px 0;
   }
 }
 .slider {
+  overflow: hidden;
   // .slider__row
 
   &__row {
-    justify-content: center;
+    transition: 0.8s;
     flex-wrap: nowrap;
-    overflow: hidden;
   }
 
   // .slider__content
 
   &__content {
     text-align: center;
-    margin-bottom: 36px;
+    padding-bottom: 36px;
+    @media (max-width: 1198.98px) {
+      flex: 0 0 100%;
+      padding: 22px 15px;
+    }
   }
   // .slider__text
 
